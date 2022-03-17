@@ -4,7 +4,7 @@ Ejercicio 1
 Responde en este fichero a las siguientes preguntas: 
 
 1. ¿Cómo se configura el email de manera global en GIT?
-Respuesta: 
+Respuesta: git config --global user.email
 
 2. ¿Qué es un Pull Request?
 Respuesta: hacer un pull request es la acción de validar algo que hayamos forkeado de un repositorio que no nos pertenece , lo modifiquemos y intentemos validar dichos cambios con el repositorio original.
@@ -13,7 +13,7 @@ Respuesta: hacer un pull request es la acción de validar algo que hayamos forke
 Respuesta: el HEAD nos indica el estado en el que se encuentra comiteado el repositorio
 
 4. ¿En cuántos estados diferentes puede estar un fichero en GIT?
-Respuesta: en 3 estados diferentes 
+Respuesta: en 3 estados diferentes , comiteado ,confirmado y preparado
 
 5. ¿Qué número identifica de manera única a cada commit?
 Respuesta: el hash que nos aparece al comprobar usando un git status
@@ -31,4 +31,4 @@ Respuesta: git rm
 Respuesta: git remote add origin "url"
 
 10. ¿Cómo explicarías qué ha ocurrido cuando tras la ejecución de un comando de GIT nos responde: "You are in 'detached HEAD' state"?
-Respuesta:
+Respuesta: esto nos indica que nuestra rama esta apuntando a un commit anterior.
